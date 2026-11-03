@@ -1,0 +1,23 @@
+NOMENCLATOR — app web instalable (PWA)
+
+Contenido:
+  index.html             la app (incluye las 634 infracciones)
+  manifest.webmanifest   nombre, colores e iconos de la app
+  sw.js                  permite usarla sin conexión
+  icons/                 iconos de la pantalla de inicio
+
+Publicar gratis en GitHub Pages:
+  1. Crea una cuenta en https://github.com (si no tienes).
+  2. Botón "+" -> "New repository". Nombre: nomenclator. Público. "Create repository".
+  3. "uploading an existing file" -> arrastra TODO el contenido de esta carpeta
+     (index.html, manifest.webmanifest, sw.js, LEEME.txt y la carpeta icons) -> "Commit changes".
+  4. Settings -> Pages -> Source: "Deploy from a branch" -> Branch: main, carpeta / (root) -> Save.
+  5. En 1-2 minutos la app estará en: https://TU-USUARIO.github.io/nomenclator/
+
+Instalar en el móvil (abre esa dirección):
+  iPhone (Safari): Compartir -> "Añadir a pantalla de inicio".
+  Android (Chrome): menú -> "Instalar aplicación".
+
+Actualizar la app:
+  Sube el index.html nuevo y en sw.js cambia VERSION (p. ej. nomenclator-v2).
+  Los móviles cogen la versión nueva la siguiente vez que abran la app con cobertura.
